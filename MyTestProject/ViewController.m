@@ -26,4 +26,8 @@
 }
 
 
+- (IBAction)buttonPress:(id)sender {
+	[self.textLabel setText:@"Hello, world!!!"];
+}
+
 @end
