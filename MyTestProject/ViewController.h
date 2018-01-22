@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+
+@property (weak, nonatomic) IBOutlet UIButton *button;
+
+- (IBAction)buttonPress:(id)sender;
 
 @end
 
